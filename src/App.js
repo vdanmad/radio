@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
 	<div className="radio">
-      <ReactPlayer url="http://xplayer.neohub.pt:1905/stream/swyh.mp3" />
+      <ReactPlayer url="http://xplayer.neohub.pt:1905/stream/swyh.mp3" controls="true" />
     </div>
 </div>
   );
