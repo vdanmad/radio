@@ -1,20 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import WavePlayer from "nice-audio-player";
-import track from './track';
 
-
+import Player from './components/Player';
+import Header from './components/Header';
+import Card from './components/Card';
 
 function App() {
   return (
-    <div className="App">
-	<div className="radio">
-      <WavePlayer
-        track={track}
-      />
-    </div>
-</div>
+      <div>
+        <Header />
+        <Card />
+        <Player />
+      </div>
   );
 }
 
