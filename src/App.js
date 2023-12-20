@@ -1,13 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ReactPlayer from 'react-player';
+import { WavePlayer } from "nice-audio-player";
+import track from './track';
+
+
 
 function App() {
   return (
     <div className="App">
 	<div className="radio">
-      <ReactPlayer url="http://xplayer.neohub.pt:1905/stream/swyh.mp3" controls="true" />
+      <WavePlayer
+        track={props.track}
+      />
     </div>
 </div>
   );
