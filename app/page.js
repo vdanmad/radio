@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
 
       <div className={styles.center}>
-        <ReactPlayer url='http://xplayer.neohub.pt:1905/stream/swyh.mp3'/>
+        <ReactPlayer url="http://xplayer.neohub.pt:1905/stream/swyh.mp3"/>
       </div>
 
     </main>
