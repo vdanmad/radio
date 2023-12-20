@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import WavePlayer from "nice-audio-player";
-import { track } from './track';
+import track from './track';
 
 
 
