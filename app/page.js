@@ -7,11 +7,7 @@ export default function Home() {
     <main className={styles.main}>
 
       <div className={styles.center}>
-        <ReactAudioPlayer
-		src="http://xplayer.neohub.pt:1905/stream/swyh.mp3"
-		autoPlay
-		controls
-	/>
+        <ReactAudioPlayer src="http://xplayer.neohub.pt:1905/stream/swyh.mp3" autoPlay controls />
       </div>
 
     </main>
