@@ -17,7 +17,7 @@ class Player extends Component {
         songs: [
           {
             position: '1',
-            songName: 'Neo's Radio',
+            songName: 'Neos Radio',
             songUrl: 'http://xplayer.neohub.pt:1905/stream/swyh.mp3'
           }
         ],
