@@ -12,7 +12,7 @@ class Header extends Component {
         <Logo> 
           <GreenIcon><MdVideoLibrary /></GreenIcon> 
           
-          Rádio <Green>Arinha</Green> Bar
+          <Green>NEOHUB.PT</Green>
 
         </Logo>
       </Nav>
