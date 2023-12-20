@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { WavePlayer } from "nice-audio-player";
-import track from './track';
+import { track } from './track';
 
 
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 	<div className="radio">
       <WavePlayer
-        track={props.track}
+        track={track}
       />
     </div>
 </div>
